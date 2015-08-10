@@ -5,8 +5,11 @@
 # This script deploys a new Laravel installation if one does not exist in the
 # given project, otherwise it updates it with code from an archive file
 
-project_name="globaloffensivebot"
-archive_path="/home/jake/archive.tar"
+# Customize these variables to your liking
+project_name="project-name"
+archive_path="/path/to/archive.tar"
+
+# Do not set this, this is detected later on
 creating_new_project=false
 
 cd /var/www/
